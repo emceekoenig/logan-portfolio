@@ -268,7 +268,8 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  color: #fff;
   border-radius: 50%;
   font-size: 20px;
   margin: 20px;
@@ -319,11 +320,6 @@ footer .social-links a:hover {
 
   .work-heading {
     font-size: 36px;
-  }
-
-  .work-weather-app,
-  .work-world-clock {
-    margin-bottom: 40px !important;
   }
 
   .content-container {

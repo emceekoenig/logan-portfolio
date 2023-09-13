@@ -26,7 +26,8 @@
   <nav class="navbar navbar-expand-lg fixed-top bg-white">
     <div class=" container-fluid justify-content-space-evenly">
       <a class="navbar-brand" href="/">
-        <img src="/images/logan-logo.svg" alt="Logo" class="website-logo" width="55" height="55" class="d-inline-block">
+        <img src="/images/logan-logo.svg" aria-label="homepage shortcut icon" alt="Logo" class="website-logo" width="55"
+          height="55" class="d-inline-block">
       </a>
       <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,61 +36,63 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav text-end me-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/" title="Home">Home</a>
+            <a class="nav-link" href="/" alt="Home Page">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/about.html" title="About Logan">About</a>
+            <a class="nav-link active" aria-current="page" href="/about.html" alt="About Page">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/skills.html" title="Logan's Skills">Skills</a>
+            <a class="nav-link" href="/skills.html" alt="Skills Page">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/work.html" title="Logan's Work">Work</a>
+            <a class="nav-link" href="/work.html" alt="Work Page">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact.html" title="Contact Logan">Contact</a>
+            <a class="nav-link" href="/contact.html" alt="Contact Page">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="my-2 content-container container">
-    <h2 class="content">About Me</h2>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="content">
-          <h2 class="mb-4">Data & Insight Analyst based in Austin, TX.</h2>
-          <h4><strong>Background:</strong></h4>
-          <p class="text-muted mb-4">
-            5 years of experience in data analysis & insights visualization.
-          </p>
-          <h4><strong>Skills:</strong></h4>
-          <p class="text-muted mb-4">
-            Data Analysis, Data Visualization, Sales Strategy, Project Management, and Market
-            Research.
-          </p>
-          <h4><strong>Tools & Frameworks:</strong></h4>
-          <p class="text-muted mb-4">
-            MySQL, Excel, Google Suite, Looker, Salesforce, Tableau.
-          </p>
-          <a href="/work.html" class="btn btn-branding projects-button">View Projects</a>
-          <a href="https://drive.google.com/file/d/1FDGGnbNpLRgGEAozZ2HrC4udyO3MpGt_/view?pli=1"
-            class="btn btn-branding resume-button" target="_blank">View Resume</a>
+  <main>
+    <div class="my-2 content-container container">
+      <h2 class="content">About Me</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="content">
+            <h2 class="mb-4">Data & Insight Analyst based in Austin, TX.</h2>
+            <h4><strong>Background:</strong></h4>
+            <p class="text-muted mb-4">
+              5 years of experience in data analysis & insights visualization.
+            </p>
+            <h4><strong>Skills:</strong></h4>
+            <p class="text-muted mb-4">
+              Data Analysis, Data Visualization, Sales Strategy, Project Management, and Market
+              Research.
+            </p>
+            <h4><strong>Tools & Frameworks:</strong></h4>
+            <p class="text-muted mb-4">
+              MySQL, Excel, Google Suite, Looker, Salesforce, Tableau.
+            </p>
+            <a href="/work.html" aria-label="view projects on work page" class="btn btn-branding projects-button">View
+              Projects</a>
+            <a href="https://drive.google.com/file/d/1FDGGnbNpLRgGEAozZ2HrC4udyO3MpGt_/view?pli=1"
+              aria-label="Logan's Resume" class="btn btn-branding resume-button" target="_blank">View Resume</a>
+          </div>
         </div>
-      </div>
-      <div class="col-lg-6 my-auto">
-        <div class="text-center">
-          <img src="/images/logan-photo2.png" class="img-fluid profile-pic rounded w-50"
-            style="background-color: var(--secondary-color);"
-            alt="Photo of Logan, Data & Insight Analyst based in Austin, TX"
-            title="Photo of Logan, Data & Insight Analyst based in Austin, TX" />
+        <div class="col-lg-6 my-auto">
+          <div class="text-center">
+            <img src="/images/logan-photo2.png" class="img-fluid profile-pic d-none d-lg-block rounded" width="400"
+              style="background-color: var(--secondary-color);" alt="Photo" />
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <footer>
+  </main>
+
+  <footer>
+    <div class="container">
       <div class="contact-box d-flex justify-content-between mb-5 d-none d-lg-flex">
         <div>
           <h3 class="text-light">Work Inquiry</h3>
@@ -97,28 +100,27 @@
         </div>
         <div class="contact-me-button">
           <div class="selected">
-            <a href="/contact.html" class="btn btn-branding">Contact Me
+            <a href="/contact.html" aria-label="contact page" alt="contact page" class="btn btn-branding">Contact Me
             </a>
           </div>
         </div>
       </div>
       <div class="d-flex justify-content-center">
         <a href="mailto:britton.careersearch@gmail.com" class="email-link"
-          title="Email Logan">britton.careersearch@gmail.com</a>
+          alt="Email Logan">britton.careersearch@gmail.com</a>
       </div>
       <div class="my-3 social-links text-center">
-        <a href="https://www.linkedin.com/in/logann/" alt="Logan's LinkedIn Profile" title="Logan's LinkedIn Profile"
-          target="_blank">
+        <a href="https://www.linkedin.com/in/logann/" aria-label="Logan's LinkedIn Profile"
+          alt="Logan's LinkedIn Profile" target="_blank">
           <i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="mailto:britton.careersearch@gmail.com">
+        <a href="mailto:britton.careersearch@gmail.com" aria-label="email logan" alt="email logan">
           <i class="fa-duotone fa-envelope"></i></a>
       </div>
       <p class="text-center text-muted" style="font-size: 12px;">Website coded
         by <a href="https://www.chelseakoenig.com/">Chelsea Koenig</a> and is <a
           href="https://github.com/emceekoenig/portfolio-project" target="_blank">open-sourced</a>.</p>
-    </footer>
+  </footer>
   </div>
-
 </body>
 
 </html>
